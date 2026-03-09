@@ -1,7 +1,8 @@
 # active-directory-home-lab
 Cybersecurity home lab using VirtualBox, Windows Server 2022, Windows 10, and Ubuntu to simulate an enterprise Active Directory environment.
 ## Lab Environment
-Host Machine: MacOS
+Host Machine: 
+MacOS
 Virtualization: VirtualBox
 Operating Systems:
 - Windows Server 2022 (Domain Controller)
