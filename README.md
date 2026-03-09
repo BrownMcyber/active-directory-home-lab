@@ -3,7 +3,8 @@ Cybersecurity home lab using VirtualBox, Windows Server 2022, Windows 10, and Ub
 ## Lab Environment
 Host Machine: 
 MacOS
-Virtualization: VirtualBox
+Virtualization: 
+VirtualBox
 Operating Systems:
 - Windows Server 2022 (Domain Controller)
 - Windows 10 (Client Machine)
