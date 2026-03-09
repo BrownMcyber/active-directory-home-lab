@@ -8,9 +8,10 @@ Operating Systems:
 - Windows 10 (Client Machine)
 - Ubuntu Linux
 ## Network Architecture
-Virtual Network Name: Cyberlab
+Virtual Network Name: 
+- Cyberlab
 Machines:
-DC01- Windows Server Domain Controller
+- DC01- Windows Server Domain Controller
 CLIENT01 - Windows 10 Client
 LINUX01 - Ubuntu Linux Systems
 ## Purpose
