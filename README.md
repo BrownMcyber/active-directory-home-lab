@@ -10,18 +10,29 @@ Operating Systems:
 - Windows 10 (Client Machine)
 - Ubuntu Linux
 ## Network Architecture
-Virtual Network Name: 
+Virtual Network Name: vboxnet0
 - Cyberlab
 Machines:
 - DC01- Windows Server Domain Controller
 CLIENT01 - Windows 10 Client
 LINUX01 - Ubuntu Linux Systems
+## Network Diagram
+DC01 (Windows Server 2022)
+IP: 192.168.56.10
+Role Domain Controller
+Client01 (Windows 10)
+IP: 192.168.56.20
+Role: Domain Client
+LINUX01 (Ubuntu)
+IP: 192.168.56.39
+Role: Linux system connected to the lab network
 ## Purpose
-This lab was built to practice:
+This lab was built to simulate a small enterprise Active Directory environment and practice:
 - Active Directory administration
 - Network configuration
 - Domain authentication
 - Security monitoring
+- Virtualized infrastructure deployment
 ## Objectives 
 - Deploy a Windows Server Domain Controller
 - Install Active Directory Domain Services
