@@ -50,3 +50,7 @@ This lab was built to simulate a small enterprise Active Directory environment a
 7. Joined the client to the domain
 8. Created domain user accounts
 9. Verified domain authentication 
+## Verification
+Successful domain authentication was verified on the Windows 10 client using the following command:
+whoami
+Output confirmed the system authenticated against the Active Directory Domain 
