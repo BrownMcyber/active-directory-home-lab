@@ -24,7 +24,7 @@ Client01 (Windows 10)
 IP: 192.168.56.20
 Role: Domain Client
 LINUX01 (Ubuntu)
-IP: 192.168.56.39
+IP: 192.168.56.5
 Role: Linux system connected to the lab network
 ## Purpose
 This lab was built to simulate a small enterprise Active Directory environment and practice:
@@ -49,8 +49,12 @@ This lab was built to simulate a small enterprise Active Directory environment a
 6. Installed Windows 10 client machine
 7. Joined the client to the domain
 8. Created domain user accounts
-9. Verified domain authentication 
+9. Verified domain authentication
+10. Installed Ubuntu Linux virtual machine
+11. Connected the Ubuntu system to the Internal Lab Network
+12. Verified communication between Ubuntu and Windows machines using ping
+13. Verified domain user network access to the Linux system
 ## Verification
 Successful domain authentication was verified on the Windows 10 client using the following command:
 whoami
-Output confirmed the system authenticated against the Active Directory Domain 
+Output confirmed the system authenticated against the Active Directory Domain, Windows Client, and Ubuntu Linux 
