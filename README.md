@@ -41,6 +41,8 @@ This lab was built to simulate a small enterprise Active Directory environment a
 - Create Domain Users
 - Demonstrate network communication between systems
 ## Lab Implementation
+Phase 1 - Domain Controller Setup
+(Installed Windows Server 2022 in VirtualBox and configured static IP addressing. Installed Active Directory Domain Services and promoted the server to Domain Controller. Configured DNS to support domain name resolution - DNS misconfiguration was the primary troubleshooting challenge during this phase, reinforcing how critical DNS is to Active Directory functionality.)
 1. Installed Windows Server 2022 in VirtualBox
 2. Configured Static IP addressing
 3. Installed Active Directory Domain Services
