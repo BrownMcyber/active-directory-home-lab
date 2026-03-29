@@ -48,12 +48,13 @@ Phase 1 - Domain Controller Setup
 3. Installed Active Directory Domain Services
 4. Promoted server to Domain Controller
 5. Created a domain environment
-## Phase 2 - Windows Client Configuration
+### Phase 2 - Windows Client Configuration
 (Installed Windows 10 client machine and joined it to the domain. Created domain user accounts and verified successful domain authentication from the client workstation.) 
-6.  Installed Windows 10 client machine
-7. Joined the client to the domain
-8. Created domain user accounts
-9. Verified domain authentication
+
+1.  Installed Windows 10 client machine
+2. Joined the client to the domain
+3. Created domain user accounts
+4. Verified domain authentication
 ## Phase 3 - Linux Integration
 (Installed Ubuntu Linux virtual machine and connected it to the internal lab network. Verified cross-platform network communication between Ubuntu and    Windows machines using ping. Confirmed domain user network access to the Linux system, demonstrating multi OS enterprise environment management) 
 10. Installed Ubuntu Linux virtual machine
