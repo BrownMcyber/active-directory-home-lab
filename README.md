@@ -57,10 +57,11 @@ Phase 1 - Domain Controller Setup
 4. Verified domain authentication
 ## Phase 3 - Linux Integration
 (Installed Ubuntu Linux virtual machine and connected it to the internal lab network. Verified cross-platform network communication between Ubuntu and    Windows machines using ping. Confirmed domain user network access to the Linux system, demonstrating multi OS enterprise environment management) 
-10. Installed Ubuntu Linux virtual machine
-11. Connected the Ubuntu system to the Internal Lab Network
-12. Verified communication between Ubuntu and Windows machines using ping
-13. Verified domain user network access to the Linux system
+
+1. Installed Ubuntu Linux virtual machine
+2. Connected the Ubuntu system to the Internal Lab Network
+3. Verified communication between Ubuntu and Windows machines using ping
+4. Verified domain user network access to the Linux system
 ## Verification
 Successful domain authentication was verified on the Windows 10 client using the following command:
 whoami
